@@ -1,0 +1,44 @@
+name: travellapplication
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'  # Ensure compatibility with latest Flutter
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  iconsax: ^0.0.8
+  get: ^4.6.6
+  flutter_date_picker_timeline: ^0.3.3 # Keeps only one DatePicker package
+  intl: 0.17.0  # Required for Date Formatting
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/images/
+
+  fonts:
+    - family: Geometr415BlkBT
+      fonts:
+        - asset: assets/fonts/Geometr415BlkBT.ttf
+          
+    - family: Aclonica
+      fonts:
+        - asset: assets/fonts/Aclonica-Regular.ttf
+
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
