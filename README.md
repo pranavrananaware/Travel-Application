@@ -1,4 +1,4 @@
-# travellapplication
+# Travel Application
 
 A new Flutter project.
 
